@@ -1,3 +1,5 @@
-def greet(name):
-    result = "Hello, " + name + " how are you doing today?"
-    return result
+def digitize(n):
+    mass = []
+    for i in str(n)[::-1]:
+        mass.append(int(i))
+    return mass
